@@ -1,0 +1,85 @@
+body{
+    font-family: 'Dancing Script', cursive;
+
+   font-size: 22px;
+}
+
+nav{
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-outline{
+    color: white;
+    border: 1px solid white;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h1{
+    background-color: rgb(117, 105, 71);
+    color: white;
+    text-align: center;
+    padding:10px 0 10px 0;
+    margin: 0;
+}
+
+.add-form{
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+    border: 3px outset rgb(119, 116, 110);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#txt-task{
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 2px inset rgb(119, 116, 110);
+    font-size: 18px;
+}
+
+.btn{
+    background-color: white;
+    color: rgb(117, 105, 71);
+    border-radius: 5px;
+    border: 1px solid rgb(119, 116, 110);
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 5px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(117, 105, 71);
+    color: white;
+}
+ul li{
+    width: auto;
+    list-style-type: disc;
+    background-color: #f1f1f1;
+    color: black;
+    margin: 20px 10px 0 20px;
+    border: .5px double rgb(119, 116, 110);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: #f1f1f1;
+}
+
+button{
+    padding: 5px;
+    background: none;
+    border: .5px solid black;
+    size: 5px;
+}
